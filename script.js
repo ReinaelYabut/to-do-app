@@ -3,7 +3,7 @@ const ListContainer = document.getElementById("list-container");
 
 function addTask(){
     if(InputBox.value === ''){
-        alert("wala ka sinulat tanga!");
+        alert("wala ka sinulat!");
     }
     else{
         let li = document.createElement("li");
